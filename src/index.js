@@ -68,7 +68,7 @@ module.exports = class Client {
      * @Example await Client.privates()
      * @returns {Promise<Array>}
      */
-    async privates(alt) {
+    async privates() {
         return await this.utilities.fetch('/privates');
     }
 }
