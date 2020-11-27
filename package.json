@@ -1,0 +1,30 @@
+{
+  "name": "thealtening-js",
+  "version": "1.0.0",
+  "description": "TheAltening API Wrapper",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrScopes/thealtening-js.git"
+  },
+  "keywords": [
+    "minecraft",
+    "api",
+    "thealtening"
+  ],
+  "author": "MrScopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrScopes/thealtening-js/issues"
+  },
+  "homepage": "https://github.com/MrScopes/thealtening-js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
