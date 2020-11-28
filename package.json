@@ -1,5 +1,5 @@
 {
-  "name": "thealtening-js",
+  "name": "@mrscopes/thealtening",
   "version": "1.0.0",
   "description": "TheAltening API Wrapper",
   "main": "src/index.js",
@@ -26,5 +26,6 @@
   "homepage": "https://github.com/MrScopes/thealtening-js#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "devDependencies": {}
 }

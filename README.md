@@ -1,4 +1,4 @@
-![](https://nodei.co/npm/thealtening-js.png?downloads=true)\
+![](https://nodei.co/npm/*thealtening-js.png?downloads=true)\
 API Wrapper made for [The Altening](https://thealtening.com)
 
 ### Example Usage
