@@ -1,7 +1,7 @@
 {
-  "name": "@mrscopes/thealtening",
+  "name": "thealtening-js",
   "version": "1.0.0",
-  "description": "TheAltening API Wrapper",
+  "description": "TheAltening (Unofficial) API Wrapper",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,8 @@
   "keywords": [
     "minecraft",
     "api",
-    "thealtening"
+    "thealtening",
+    "alts"
   ],
   "author": "MrScopes",
   "license": "ISC",

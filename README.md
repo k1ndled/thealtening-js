@@ -1,5 +1,5 @@
-![](https://nodei.co/npm/*thealtening-js.png?downloads=true)\
-API Wrapper made for [The Altening](https://thealtening.com)
+![](https://nodei.co/npm/thealtening-js.png?downloads=true)\
+**Unofficial** API Wrapper made for [The Altening](https://thealtening.com)
 
 ### Example Usage
 ```js
