@@ -35,6 +35,17 @@ module.exports = class Client {
 	}
 
 	/**
+	 * Return skin url from an alt
+	 * @Example await Client.getSkin('seapx-7dclt@alt.com')
+	 * @Param (alt) The ALT's token.
+	 * @returns {Promise<Object>}
+	 */
+	async getSkin(alt) {
+		const res = await this.utilities.fetch('/info', 'token=' + alt);
+		return `https://cdn.thealtening.com/skins/body/${res.skin}.png`;
+	}
+
+	/**
 	 * Favorite an alt.
 	 * @Example await Client.favorite('seapx-7dclt@alt.com')
 	 * @Param (alt) The ALT's token.

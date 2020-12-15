@@ -3,5 +3,5 @@ const TheAltening = new Client(require('./config.json').token);
 
 (async () => {
 	const res = await TheAltening.generate();
-	console.log(res);
+	console.log(await TheAltening.getSkin(res.token));
 })();
